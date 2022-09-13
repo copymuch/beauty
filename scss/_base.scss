@@ -1,0 +1,46 @@
+$bg-color: #111111;
+$fontHeader : 'EB Garamond', serif;
+$fontPara: 'Cormorant Garamond', serif;
+$paraColor: #fff;
+$layoutWidth: 1400px;
+
+@mixin bgProperty (){
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+body {
+	background: $bg-color;
+	font-family: $fontPara;
+}
+.container {
+	max-width: $layoutWidth;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 10px;
+	box-sizing: border-box;
+}
+body , ul{
+	margin: 0;
+	padding: 0;
+	color: $paraColor;
+}
+
+h1,h2,h3,h4 {
+	font-family: $fontHeader;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+
+}
+
+ul {
+	list-style-type: none;
+}
+
+section,header,footer {
+	margin: 0;
+	padding: 0;
+}
