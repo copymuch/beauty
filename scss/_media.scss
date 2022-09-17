@@ -4,6 +4,17 @@
 	}
 }
 @media(max-width: 1158px){
+	.version__services-list {
+		display: flex;
+		ul {
+			li {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				width: 49%;
+			}
+		}
+	}
 	h1 {
 		width: 55%;
 	}
@@ -31,6 +42,9 @@
 	h1 {
 		width: 55%;
 	}
+	.version__services-list ul li {
+		width: 100%;
+	}
 }
 @media(max-width: 801px){
 	.header__nav__block {
@@ -51,6 +65,9 @@
 @media(max-width: 423px){
 	h1 {
 		font-size: 46px;
+		width: 100%;
+	}
+	.version__services-list ul li img {
 		width: 100%;
 	}
 }

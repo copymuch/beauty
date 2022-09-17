@@ -71,4 +71,31 @@ h1 {
 	}
 }
 
+.version{
+	margin-top: 120px;
+}
+.version__text-content {
+	width: 55%;
+	text-align: center;
+	margin: 0 auto;
+	img {
+		padding-bottom: 50px;
+	}
+}
+.version__services-list {
+	padding-top: 90px;
+	h3 {
+		font-weight: 400;
+		font-size: 30px;
+	}
+	ul {
+		width: 100%;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		li {
+			width: 30%;
+		}
+	}
+}
 @import 'media';
